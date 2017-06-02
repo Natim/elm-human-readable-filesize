@@ -8,6 +8,10 @@ Examples:
 format 1234 == "1.23 kB"
 format 238674052 == "238.67 MB"
 format 543 == "543 B"
+
+formatBase2 1234 == "1.20 KiB"
+formatBase2 238674052 == "227.62 MiB"
+formatBase2 543 == "543 B"
 ```
 
 See [package documentation](http://package.elm-lang.org/packages/basti1302/elm-human-readable-filesize/latest/Filesize) for more details and customization options.
